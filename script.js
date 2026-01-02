@@ -1,4 +1,4 @@
-const OPENWEATHER_API_KEY = "30e42fd27464024a1c78c545b41c1ace";
+const OPENWEATHER_API_KEY = ""YOUR_API_KEY";";
 let map = L.map("map").setView([20.5937, 78.9629], 5);
 
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -84,4 +84,5 @@ function displayResults(cities) {
 
     map.setView([city.lat, city.lon], 6);
   });
+
 }
